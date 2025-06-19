@@ -16,17 +16,21 @@ git clone https://github.com/seuusuario/calculadora-investimentos.git
 cd calculadora-investimentos
 ```
 
-2. Execute no terminal:
-```bash
+2. Executar no terminal:
+
+```
 python calculadora_investimentos.py
 ```
 
 3. Insira os dados:
+
+```   
 - Capital inicial
 - Valor do aporte mensal
 - Taxa de juros (decimal)
 - Número de meses
 
+```
 ## 📦 Exemplo de entrada
 
 ```
@@ -44,24 +48,21 @@ Acumulado dos aportes mensais: R$6370.88
 Valor futuro total: R$7497.71
 ```
 
-## 🧠 Fórmulas aplicadas
 
-- Juros Simples: `J = C * i * t`
-- Juros Compostos: `M = C * (1 + i)^t`
-- Valor Futuro com Aporte: `VF = P * [(1 + i)^n - 1] / i`
-
----
-
-## 📁 Estrutura do projeto
+## Proximos passos
 
 ```
-📦 calculadora-investimentos
-┣ 📜 calculadora_investimentos.py
-┗ 📄 README.md
+Adicionar interface gráfica
+Persistência de dados em arquivo
+Mais opções de cálculos financeiros
 ```
 
 ---
 
-## 👨‍💻 Autor
+## Contato
+```
+Desenvolvido por Dev Dogarpe
+LinkedIn: www.linkedin.com/in/douglas-valentim-garpeli-devdogarpe
+Email: dev.dogarpe@gmail.com
 
-Feito por **Dev Dogarpe** – projeto didático para estudos de Python e finanças pessoais.
+```
